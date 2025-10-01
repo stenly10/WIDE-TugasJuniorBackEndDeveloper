@@ -2,7 +2,7 @@
 
 1. Bahasa pemrograman yang digunakan: Python
 
-2. Algoritma bubble-sort dapat dilihat pada file bubble_sort.py method bubble_sort(arr). Proses bubble-sort dilakukan secara terbalik sehingga proses dimulai dengan memindahkan elemen terkecil ke indeks pertama dari array.
+2. Algoritma bubble-sort dapat dilihat pada file bubble_sort.py method bubble_sort(arr). Proses bubble-sort dilakukan secara terbalik sehingga proses dimulai dengan memindahkan elemen terkecil ke indeks pertama dari list atau array.
 
 3. Algoritma bubble-sort yang sudah dimodifikasi dapat dilihat pada file modified_bubble_sort.py pada method modified_bubble_sort(arr). Perbedaan dari algoritma bubble-sort sebelumnya adalah terdapat batasan pada inner loop di mana batas dari loop tersebut adalah i-1 dengan nilai i merupakan indeks iterasi outer loop. Hal ini dilakukan untuk membatasi proses perbandingan dan swap pada inner loop hanya pada range array yang belum terurut, sedangkan elemen-elemen terurut (elemen-elemen terkecil terurut setelah melalui proses pass sebelumnya) tidak akan dibandingkan kembali.
 
