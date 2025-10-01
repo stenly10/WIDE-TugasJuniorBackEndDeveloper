@@ -11,4 +11,5 @@
 5. Berdasarkan kode versi nomor 4, perhitungan kompleksitas algoritma bubble-sort dapat dijabarkan sebagai berikut.
     - Worst case dari outer loop akan dijalankan dengan i bernilai 0 hingga n-1 dengan i adalah indeks dari outer loop dan n adalah banyak elemen pada array.
     - Worst case dari inner loop akan dijalankan sebanyak (n-2) - i + 1 = n-i-1.
-    - Karena inner loop dijalankan berdasarkan indeks dari outer loop, maka total kompleksitasnya = (n-1) + (n-2) + ... + 0. Total kompleksitas ini dapat disederhanakan menjadi n(0 + (n-1))/2 = (n^2 - n)/2. Karena faktor paling besar dari kompleksitas ini adalah n^2/2, maka dapat disimpulkan kompleksitas dari algoritma ini adalah O(n^2).
+    - Karena inner loop dijalankan berdasarkan indeks dari outer loop, maka total kompleksitasnya = (n-1) + (n-2) + ... + 0.
+    - Total kompleksitas ini dapat disederhanakan menjadi n(0 + (n-1))/2 = (n^2 - n)/2. Karena faktor paling besar dari kompleksitas ini adalah n^2/2, maka dapat disimpulkan kompleksitas dari algoritma ini adalah O(n^2).
